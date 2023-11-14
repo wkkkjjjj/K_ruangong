@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>phone_Html_11</title>
+    <!--导入js文件-->
+    <script src="../static/phone.js"></script>
+</head>
+
+<!--onload为加载事件,即body在加载时触发init-->
+<body onload="init()">
+<!--onchange为选择事件-->
+<div>选择品牌<select id="marks" onchange="display()"></select></div>
+<!--此div里面的内容为手机的数据-->
+<div id="phones"></div>
+</body>
+</html>
